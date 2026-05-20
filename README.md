@@ -94,7 +94,7 @@ Trained with **Xyron v3.0.1**:
 
 | Parameter | Value |
 |-----------|-------|
-| Architecture | 784 → 128 → 10 |
+| Architecture | 784 → 64 → 10 |
 | Activations | ReLU + Softmax |
 | Quantization | INT8 |
 | Training set | 60,000 samples (MNIST) |
@@ -108,12 +108,12 @@ Trained with **Xyron v3.0.1**:
 
 ```bash
 # Train
-xyron -d 784,128,10 -act relu,softmax -a train \
+xyron -d 784,64,10 -act relu,softmax -a train \
       -f mnist_train.csv -test-file mnist_test.csv \
       -e 1000 -l 0.001 --adam -o mnist_model.txt
 
 # Export INT8 header
-xyron -d 784,128,10 -act relu,softmax -a export \
+xyron -d 784,64,10 -act relu,softmax -a export \
       -m mnist_model.txt -o mnist_int8.h -q int8
 ```
 
