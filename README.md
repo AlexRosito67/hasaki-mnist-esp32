@@ -1,1 +1,0 @@
-# xyron-mnist-esp32
