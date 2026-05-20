@@ -1,6 +1,6 @@
 # xyron-mnist-esp32
 
-MNIST handwritten digit recognition running entirely on an ESP32-C3 Super Mini, using a neural network header exported by [Xyron](https://github.com/AlexRosito67/Xyron-code).
+MNIST handwritten digit recognition running entirely on an ESP32-C3 Super Mini, using a neural network header exported by Xyron.
 
 No frameworks. No runtime. Just a C header and a microcontroller.
 
