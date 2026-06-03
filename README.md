@@ -99,7 +99,7 @@ Trained with **Hasaki v3.2.1**:
 | Quantization | INT8 |
 | Training set | 47,999 samples (MNIST) |
 | Validation accuracy | ~98.2% |
-| Header size | 212 KB |
+| Header size | 399.8 KB |
 | RAM usage | 12.2% (40,108 / 327,680 bytes) |
 | Flash usage | 78.9% (1,034,610 / 1,310,720 bytes) |
 
