@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="./logo_hasaki.jpg" width="600" alt="Hasaki Logo">
+</p>
+
+
 # hasaki-mnist-esp32
 MNIST handwritten digit recognition running entirely on an ESP32-C3 Super Mini, using a neural network header exported by Hasaki.
 No frameworks. No runtime. Just a C header and a microcontroller.
