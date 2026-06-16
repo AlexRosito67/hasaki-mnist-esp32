@@ -128,7 +128,7 @@ hasaki -d 784,128,10 -act relu,softmax -a train \
 hasaki -m mnist.txt -a export -o mnist_int8.h -q int8
 ```
 
-Hasaki will be available soon.
+[Hasaki Pro is available here](https://hasaki.lemonsqueezy.com/checkout/buy/1b6ec0ae-10ec-49dc-8c6f-2af146742a33).
 
 ---
 
