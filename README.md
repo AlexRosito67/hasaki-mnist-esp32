@@ -1,6 +1,6 @@
-[<p align="center">
+<p align="center">
   <img src="./logo_hasaki.jpg" width="600" alt="Hasaki Logo">
-</p>](https://hasaki.lemonsqueezy.com)
+</p>
 
 
 # hasaki-mnist-esp32
